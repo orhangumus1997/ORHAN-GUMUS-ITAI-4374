@@ -1,0 +1,24 @@
+Lab 05 – Brain-Inspired Learning Models
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+What I Did
+This lab investigated learning models that draw more directly from biological principles, moving beyond standard backpropagation toward approaches inspired by synaptic plasticity, competitive learning, and self-organization.
+Key activities included:
+
+Implementing Hebbian and anti-Hebbian learning rules
+Exploring unsupervised learning methods inspired by cortical self-organization
+Studying synaptic plasticity mechanisms including Long-Term Potentiation (LTP) and Long-Term Depression (LTD)
+Building and visualizing self-organizing maps (SOMs) as models of cortical topographic mapping
+
+
+What I Learned
+This lab deepened my appreciation for how much of modern machine learning is still catching up to the sophistication of biological learning. Synaptic plasticity is not a single mechanism but a family of processes that operate at different timescales and in response to different signals.
+Self-organizing maps were particularly fascinating — watching the network spontaneously develop topographic structure mirroring how the brain organizes sensory representations was a powerful demonstration of emergent order.
+
+Challenges I Faced
+
+Implementing competitive learning required careful normalization to prevent "dead neurons" — units that never win competition and stop learning.
+Understanding the difference between short-term and long-term plasticity, and when each applies, took multiple readings of the material.
+Visualizing high-dimensional SOM outputs in a meaningful way required creative use of dimensionality reduction techniques.
