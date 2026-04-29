@@ -1,0 +1,24 @@
+Lab 07 – Neuro Alliance: Collaborative Intelligence
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+What I Did
+This lab explored the concept of "Neuro Alliance" — the idea that brain-inspired systems and conventional AI can be combined to create more robust and capable intelligence. The work centered on how human cognitive strategies and AI computational strengths complement each other.
+Key activities included:
+
+Analyzing hybrid systems that combine biological and artificial processing strategies
+Investigating ensemble methods and their parallels to multi-region brain cooperation
+Exploring how different brain regions specialize and collaborate (e.g., hippocampus for memory, prefrontal cortex for planning)
+Designing and testing a small collaborative model that leverages multiple specialized sub-networks
+
+
+What I Learned
+This lab brought together threads from the entire course into a unified framework. The idea that intelligence — whether biological or artificial — benefits from specialization and cooperation is a profound one. Just as the brain's regions don't operate in isolation, AI systems that combine specialized modules tend to outperform monolithic approaches on complex tasks.
+I also gained a stronger appreciation for transfer learning as an AI analog to the brain's ability to apply prior knowledge to new domains quickly and with minimal additional experience.
+
+Challenges I Faced
+
+Coordinating information flow between specialized sub-networks required careful interface design.
+Deciding which tasks to assign to which "module" was more art than science — it highlighted how much we still don't know about optimal cognitive division of labor.
+Evaluating the combined system fairly against single-model baselines required thoughtful experimental design.
