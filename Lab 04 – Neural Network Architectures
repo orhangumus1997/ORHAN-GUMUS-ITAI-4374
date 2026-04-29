@@ -1,0 +1,24 @@
+Lab 04 – Neural Network Architectures
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+What I Did
+This lab focused on building and analyzing multi-layer neural network architectures, drawing direct comparisons to hierarchical processing structures in the brain. I worked with feedforward networks and explored how depth and layer design affect learning capacity.
+Key activities included:
+
+Building feedforward neural networks with multiple hidden layers
+Implementing and analyzing backpropagation as a weight-update mechanism
+Comparing the brain's hierarchical processing (e.g., visual cortex layers V1→V2→V4→IT) to CNN layer hierarchies
+Experimenting with different layer sizes and observing impacts on accuracy and generalization
+
+
+What I Learned
+The most significant insight from this lab was the parallel between hierarchical brain processing and deep network architectures. Just as the visual cortex processes simple edges in early layers and complex objects in later layers, deep networks extract increasingly abstract features with depth.
+I also developed a clearer understanding of backpropagation — while it is a powerful learning algorithm, it has no direct biological analog, which raises interesting questions about how the brain might actually implement something functionally similar.
+
+Challenges I Faced
+
+Tuning hyperparameters (learning rate, layer sizes) without overfitting required significant trial and error.
+Understanding the vanishing gradient problem and why it limits very deep networks helped me appreciate why biological brains may use different credit-assignment strategies.
+Debugging shape mismatches in tensor operations was a common but instructive obstacle.
