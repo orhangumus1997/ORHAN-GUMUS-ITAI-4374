@@ -10,7 +10,7 @@ Semester: Spring 2026
 Instructor: Prof. Patricia McManus
 
 Repository Structure
-Orhan-Gumus-ML-Course/
+#Orhan-Gumus-ML-Course/
 ├── README.md
 ├── Labs/
 │   ├── Lab02/
