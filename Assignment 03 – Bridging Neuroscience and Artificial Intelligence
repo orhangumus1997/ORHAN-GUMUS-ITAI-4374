@@ -1,0 +1,33 @@
+Assignment 03 – Bridging Neuroscience and Artificial Intelligence
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+The Problem I Was Trying to Solve
+This assignment asked me to conduct a structured comparative analysis of biological neural networks and artificial neural networks, examine the brain's architectural principles, and draw implications for the future of AI design. The goal was to go beyond surface-level analogies and engage with the specific mechanisms that make each system work — and where they diverge.
+
+My Approach
+I organized the assignment into three parts:
+Part 1 – Biological vs. Artificial Neurons
+I built a detailed comparison table covering five key dimensions: communication medium (electrochemical vs. numerical), weight/strength update mechanisms (synaptic plasticity vs. backpropagation), processing style (parallel/asynchronous vs. mostly synchronous), learning persistence (lifelong plasticity vs. retraining required), and energy use (highly efficient vs. computationally expensive).
+Part 2 – Brain Architecture and AI Design
+I analyzed how different brain regions map to AI architectures:
+
+The visual cortex's hierarchical edge-to-object processing mirrors CNN layer design
+The hippocampus's sequential memory retention parallels RNN and LSTM networks
+Attention mechanisms in transformers reflect biological attention systems that prioritize relevant signals while suppressing noise
+The amygdala's role in risk assessment and emotion suggests paths toward more adaptive, context-aware AI
+
+Part 3 – Integration Analysis and Future Implications
+I examined where the two systems diverge most sharply — energy efficiency, generalization from limited data, and contextual flexibility — and argued that these gaps point toward the most promising directions for future research: neuromorphic computing, spiking neural networks, and biologically plausible learning algorithms.
+
+Results and What They Mean
+The comparative analysis revealed that while AI has successfully borrowed many architectural principles from the brain, the deepest biological properties — continuous plasticity, energy efficiency, and emotional modulation — remain largely unimplemented.
+The most significant finding is that the brain consumes approximately 20 watts to perform complex cognitive tasks, while modern large AI models require enormous computational infrastructure. This gap is not just an engineering inconvenience; it represents a fundamental difference in how intelligence is implemented, and closing it may require rethinking AI architecture from the ground up rather than scaling existing approaches.
+Future AI systems that integrate synaptic plasticity, emotional modulation, and hierarchical learning principles could be more adaptive, more efficient, and more capable of operating in the open-ended, uncertain real world.
+
+References
+
+Kandel, E. R., Koester, J. D., Mack, S. H., & Siegelbaum, S. A. (2021). Principles of Neural Science (6th ed.). McGraw-Hill.
+LeCun, Y., Bengio, Y., & Hinton, G. (2015). Deep learning. Nature, 521(7553), 436–444.
+Hassabis, D., Kumaran, D., Summerfield, C., & Botvinick, M. (2017). Neuroscience-inspired artificial intelligence. Neuron, 95(2), 245–258.
