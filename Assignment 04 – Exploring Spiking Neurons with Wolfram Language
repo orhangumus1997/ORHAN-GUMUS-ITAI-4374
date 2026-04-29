@@ -1,0 +1,39 @@
+Assignment 04 – Exploring Spiking Neurons with Wolfram Language
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+The Problem I Was Trying to Solve
+This assignment challenged me to implement and explore the Leaky Integrate-and-Fire (LIF) neuron model — one of the most widely used computational models of biological neurons — using Wolfram Language. The goal was to move from conceptual understanding of spiking neurons to hands-on numerical simulation, interactive exploration, and analysis of how neurons encode information.
+
+My Approach
+The assignment was structured across five parts:
+Part A – Solving the LIF Equation with NDSolve
+I defined the core LIF differential equation, set biologically realistic parameters (membrane time constant τ = 20ms, resting potential Vrest = -70mV, threshold Vthresh = -55mV, reset potential Vreset = -75mV), and applied a step current input (18 nA from t = 0.05s to t = 0.4s). I used Wolfram's NDSolve with WhenEvent to detect threshold crossings and reset the membrane potential, simulating spike generation.
+Part B – Interactive Manipulate Dashboard
+I built an interactive dashboard using Manipulate[] with real-time sliders for threshold, time constant, and input current. This allowed direct exploration of how each parameter affects firing behavior. Key findings: the rheobase (minimum current to elicit firing) is approximately 14 nA, and the neuron stops firing when the threshold is raised above approximately -48 mV.
+Part C – f–I Curve Analysis
+I swept input current from 0 to 35 nA and plotted the resulting spike counts, generating the frequency-current (f–I) curve. The curve is nonlinear at low currents near threshold, approximately linear in the mid-range, and shows no saturation in this simplified model (which lacks refractory dynamics).
+Part D – Encoding a Sine Wave
+I drove the LIF neuron with a sinusoidal input current (15 + 12·sin(2π·5·t) nA) over 1 second and observed how the spike train encodes the amplitude of the oscillating input. This demonstrated rate coding: higher current → more spikes per unit time, preserving amplitude information while losing precise waveform shape.
+Part E – Experiments
+I completed three additional experiments:
+
+Threshold Sweep (-65 to -45 mV): spike count decreases monotonically as threshold rises
+Time Constant Comparison: τ = 0.010s produces sharp, frequent spikes; τ = 0.050s produces smoother voltage traces with fewer spikes, matching biological integration behavior
+Noisy Input: added uniform random noise to the input current to simulate realistic in-vivo conditions
+
+
+Results and What They Mean
+Threshold behavior confirmed that neurons function as biological decision-makers — they fire only when input exceeds a critical level, implementing a form of nonlinear thresholding that is fundamental to neural computation.
+The f–I curve captured the graded response of a neuron to increasing stimulus intensity. The nonlinear onset near rheobase and approximately linear mid-range reflect the kind of stimulus encoding observed in real sensory neurons.
+Time constant effects demonstrated the integration-vs.-speed tradeoff: neurons with short τ respond quickly to inputs but are more sensitive to noise; neurons with long τ integrate inputs over time, smoothing variability but responding more slowly to changes.
+Rate coding analysis showed that while a spike train can preserve amplitude information from a time-varying input, the precise waveform shape is lost. This supports rate coding as one mechanism of neural information encoding, while also hinting at the limitations of simplified LIF models — real neurons also use timing-based (temporal) coding.
+Model strengths and limitations: The LIF model successfully captures membrane integration, threshold-triggered spiking, and reset dynamics. However, it omits dendritic computation, ion channel diversity, spike-frequency adaptation, and refractory periods — all of which shape real neuron behavior. Future work with Hodgkin-Huxley or adaptive exponential IF models would capture these richer dynamics.
+The interactive Manipulate[] dashboard was particularly valuable: it transformed abstract differential equations into an intuitive, explorable system and revealed the strong nonlinear sensitivity of firing to small parameter changes — reinforcing the view of neurons as biological decision units rather than linear filters.
+
+References
+
+Dayan, P., & Abbott, L. F. (2001). Theoretical Neuroscience. MIT Press.
+Gerstner, W., & Kistler, W. M. (2002). Spiking Neuron Models. Cambridge University Press.
+Wolfram Language Documentation. (2025). NDSolve, WhenEvent, Manipulate.
