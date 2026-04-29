@@ -1,0 +1,25 @@
+Assignment 01 – A Conversation Between Brain and AI
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+The Problem I Was Trying to Solve
+The goal of this assignment was to creatively explore the similarities and differences between biological intelligence and artificial intelligence by writing a structured dialogue between a human brain and an AI system. The challenge was to ground the conversation in real neuroscience and AI concepts while making it accessible and engaging.
+
+My Approach
+I structured the dialogue around four key comparison points identified in course readings: learning mechanisms, energy efficiency, memory and decision-making, and the value of collaboration. Each exchange in the dialogue introduced a real concept:
+
+Hebbian learning ("cells that fire together, wire together") — the biological basis for synaptic strengthening and the inspiration for neural network weight updates
+Energy efficiency — the human brain operates on roughly 20 watts, far less than large AI models requiring data centers
+Generalization — the brain learns quickly from limited examples, while AI typically requires massive datasets
+David Marr's three levels of analysis — computational, algorithmic, and implementational — as a shared framework for understanding both systems
+
+
+Results and What They Mean
+The dialogue format made abstract neuroscience and AI concepts concrete and relatable. The key insight that emerged was that the brain and AI are not competitors but complementary systems. The brain excels at intuition, creativity, energy efficiency, and contextual understanding; AI excels at speed, precision, consistency, and large-scale data processing.
+This framing — collaboration over competition — became a theme I carried through the rest of the course. It reflects the broader goal of the field: not to replace human intelligence, but to build systems that work alongside it.
+
+References
+
+Hebb, D. O. (1949). The Organization of Behavior. Wiley.
+Marr, D. (1982). Vision: A Computational Investigation into the Human Representation and Processing of Visual Information. MIT Press.
