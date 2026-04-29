@@ -1,0 +1,24 @@
+Lab 02 – Foundations of Neural Computation
+Course: ITAI 4374 – Neuroscience as a Model for AI
+Student: Orhan Gumus
+Semester: Spring 2026
+
+What I Did
+In this lab, I explored the foundational principles connecting biological neural computation to artificial neural networks. The work covered how individual neurons process signals, how those signals are represented mathematically, and how early learning models like the perceptron were inspired by biology.
+Key activities included:
+
+Implementing basic neuron models in Python
+Exploring activation functions (sigmoid, ReLU, step functions) and their biological parallels
+Simulating Hebbian learning — the principle that "cells that fire together, wire together"
+Visualizing how synaptic weight updates change network behavior over time
+
+
+What I Learned
+This lab gave me a solid grounding in how neuroscience concepts translate into computational models. I gained a much clearer understanding of why activation functions exist — they mimic the all-or-nothing firing behavior of biological neurons. I also learned that Hebb's rule, while simple, is the conceptual ancestor of modern gradient-based learning.
+The most eye-opening moment was seeing how small changes in weights produce large changes in output, which directly mirrors how synaptic strengthening in the brain can shift cognitive behavior.
+
+Challenges I Faced
+
+Getting intuition for how continuous activation functions approximate the discrete spike behavior of real neurons took some time.
+Visualizing high-dimensional weight spaces was initially difficult; I relied on 2D projections to make sense of what was happening.
+Understanding the difference between supervised weight updates and unsupervised Hebbian updates required careful reading and experimentation.
